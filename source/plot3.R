@@ -1,4 +1,4 @@
-#Project1 - Plot#2
+#Project1 - Plot3
 
 library('lubridate')
 setwd("d:/ds/p1")
@@ -27,7 +27,7 @@ legend("topright",
        pch=c(NA,NA,NA),                 # Point type  
        lty=c(1,1,1),                    # Line type  
        lwd=c(1,1,1),                    # Line width  
-       pt.cex=1
+        pt.cex=1
 )
 #  ,type="l",xlab="",ylab="Global Active Power (kilowatts)")
 dev.print(png,file ="plot3.png", width = 480, height = 480)

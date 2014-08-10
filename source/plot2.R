@@ -1,4 +1,4 @@
-#Project1 - Plot#2
+#Project1 - Plot2
 
 library('lubridate')
 setwd("d:/ds/p1")
